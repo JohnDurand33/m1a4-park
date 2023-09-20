@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css"> <!-- Being told that chrome failed to load this stylesheet.  Should we use the !bcdn5 template here? -->
+<link rel="stylesheet" href="styles.css">
+<title>Title</title>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-success navbar-dark">
+        <div class="container-fluid d-flex justify-content-between">
+            <a href="#" class="navbar-brand fs-4 ms-5 ps-5">Centennial Park</a>
+            <button
+                class="navbar-toggler pe-5"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto me-5 pe-5">
+                    <li class="nav-item">
+                        <a href="#overview" class="nav-link">Our Park</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Dogs Welcome</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                          </ul>
+                    </li>
+                    <li>
+                        <a href="#footer" class="nav-link">More Information</a>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel Intro Section  -->
+    <section class="intro bg-light text-dark p-1 p-lg-0 p-md-1 text-center text-sm-start shadow-lg" id="overview">
+        <div class="container-fluid p-5 bg-light">
+            <div class="row-md col-sm">
+                <div class="d-md-flex g-5 bg-light align-items-center justify-content-around">
+                    <h1 class="col-lg-5 col-md-6 pe-sm-5 ">Here in Centennial, Colorado, we encourage our community to get out and enjoy 
+                        all that Colorado offers.  We boast one of largest recreational in-city parks in the country. Take a look at some scenes from this summer.</h1>
+                    <div id="parkimagecarousel" class="carousel slide col-lg-5" data-bs-touch="false">
+                        <div class="carousel-inner shadow-lg">
+                            <div class="carousel-item active w-100 rounded-2 overflow-hidden">
+                            <img src="static/outside-city-view-edited.jpg" class="img-fluid" alt="View of park and buildings">
+                            </div>
+                            <div class="carousel-item w-100 rounded-2 overflow-hidden">
+                            <img src="static/lost in the trees_edited.jpg" class="img-fluid" alt="Trees at twilight">
+                            </div>
+                            <div class="carousel-item w-100 rounded-2 overflow-hidden">
+                            <img src="static/pond-geese-sitting-area-edited.jpg" class="img-fluid" alt="Girl sitting near goose pond">
+                            </div>
+                            <div class="carousel-item w-100 rounded-2 overflow-hidden">
+                            <img src="static/busy-sidewalk-park-view-edited.jpg" class="img-fluid" alt="Busy park sidewalk">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#parkimagecarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#parkimagecarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second panel -->
+    <section id="transition" class="bg-light p-lg-0 text-center text-sm-center d-flex ">
+            <div class="p-5 shadow-lg transition-wrapper d-flex justify-content-evenly align-items-center ">
+                <div class="col-4 col-md-2">
+                    <img src="static/Nola-baby-edited.jpg" alt="" class="img-fluid mt-3 mb-3 border border-success border-3">
+                 </div>
+                <h1 class="col-3 col-md-5 text-center">And what's a trip to the park if you can't bring your best friends!</h1>
+                <div class="col-4 col-md-2"> <img src="static/dog-cartoon-img-round-edited.jpg" alt="" class="img-fluid mt-3 mb-3 border border-success border-3">
+                 </div>      
+            </div>
+    </section>
+
+    <!-- Dog Gallery -->
+
+    <section id="dogshow" class="bg-light p-5 p-lg-0 text-center text-sm-start">
+        <div class="row text-center align-items-evenly">
+            <h1 class="pt-5 pb-4">...Check out who you just might see there!</h1>
+        </div>    
+        <div class="container-fluid p-1">
+            <div class="row align-items-center">
+                <div class="col d-flex justify-content-center align-content-center">
+                    <div class="card border border-3 border-success mb-4 mt-4" style="width: 20rem; overflow: hidden">
+                        <img src="static/ron-fung-VQJXJ4IaU_o-unsplash-edited.jpg" class="img-fluid" alt="...">
+                        <div class="card-body">
+                        <p class="card-text">Roadhouse is a regular patron.  
+                            He visits the park at least three times a week to show off his acrobatic skills!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-content-center">
+                    <div class="card border border-3 border-success mb-4 mt-4" style="width: 20rem; overflow: hidden">
+                        <img src="static/white-fluffy-face-edited.jpg" class="img-fluid" alt="...">
+                        <div class="card-body">
+                        <p class="card-text">Mona is new to the park this year.  She enjoys exploring 
+                            and making new friends with people like you!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-content-center">
+                    <div class="card border border-3 border-success mb-4 mt-4" style="width: 20rem; overflow: hidden">
+                        <img src="static/dirt-area-fetch-edited.jpg" class="img-fluid" alt="...">
+                        <div class="card-body">
+                        <p class="card-text">Frank loves Centennial.  His owner takes him here after work 
+                            every day to play Frank's favorite game!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row align-items-center pb-5">
+                <div class="col d-flex justify-content-center align-items-center">
+                    <div class="card border border-3 border-success mb-4 mt-4" style="width: 20rem; overflow: hidden">
+                        <img src="static/dirt-area-puppies-playing-edited.jpg" class="img-fluid" alt="...">
+                        <div class="card-body">
+                        <p class="card-text">Archie and Angel are best friends, and even better playmates!  
+                            This is their second season living near the park. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-content-center">
+                    <div class="card border border-3 border-success mb-4 mt-4" style="width: 20rem; overflow: hidden">
+                        <img src="static/wade-austin-ellis-FtuJIuBbUhI-unsplash-edited.jpg" class="img-fluid" alt="...">
+                        <div class="card-body">
+                        <p class="card-text">Nola and her owner are so lucky to have each other, and 
+                            we're so lucky to have them both!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-content-center">
+                    <div class="card border border-3 border-success mb-4 mt-4" style="width: 20rem; overflow: hidden">
+                        <img src="static/black-puppies-running-closeup-edited.jpg" class="img-fluid" alt="...">
+                        <div class="card-body">
+                        <p class="card-text">Harry is thrilled to be here; today is his first trip 
+                            to the park since last season.  Welcome everyone!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer  -->
+
+    <footer>
+        <div id="footer" class="container-fluid bg-success border border-success text-light p-lg-0 text-sm-start flex--wrap flex--shrink-1">
+            <div class="row d-flex justify-content-center pt-5 pb-5">
+                <div class="col-3 container-fluid">
+                    <p class="text-decoration-underline text-center fs-3">Park Location</p>
+                    <div class="map-wrapper d-flex "> 
+                        <img src="static/Dog-Park-Map.jpg" alt="Park Location Map" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-3 container-fluid d-flex-column justify-content-evenly align-items-center">
+                    <p class="text-decoration-underline fs-3">More Information</p>
+                    <p class="ps-0 p-3 fs-5 fw-lighter"><i class="fa-solid fa-mobile-screen fa-2x"></i> (555)555-5555</p>
+                    <p class="ps-0 p-3 fs-5 fw-lighter"><a href="#"><i class="fa-regular fa-envelope fa-2x"></i> <span>centennialpark@co.gov</span></a></p>
+                    <p class="ps-0 p-3 fs-5 fw-lighter"><i class="fa-solid fa-location-dot fa-2x"></i> 333 Park Way, Centennial, CO, 80121</p>
+                </div>
+                <div class="col-3 container-fluid d-flex-column justify-items-evenly">
+                    <p class="text-decoration-underline fs-3">Centennial Park Social</p>
+                    <p class="ps-0 p-3 fs-5 fw-lighter"><a href="#"><i class="fa-brands fa-square-facebook fa-2x"></i> <span>Facebook</span></a></p>
+                    <p class="ps-0 p-3 fs-5 fw-lighter"><a href="#"><i class="fa-brands fa-square-twitter fa-2x"></i>  <span>Twitter</span></a></p>
+                    <p class="ps-0 p-3 fs-5 fw-lighter"><a href="#"><i class="fa-brands fa-instagram fa-2x"></i> <span>Instagram</span></a></p>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    
+<script src="https://kit.fontawesome.com/2915edae82.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
